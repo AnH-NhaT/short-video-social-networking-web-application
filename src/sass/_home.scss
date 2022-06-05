@@ -1,0 +1,149 @@
+.pageHeader_tikTok {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.text-pink {
+  color: #fe2c55;
+}
+
+.text-blue {
+  color: rgb(32, 213, 236);
+}
+
+.btn-danger {
+  background-color: #fe2c55 !important;
+  border-color: #fe2c55 !important;
+}
+
+.btn-outline-danger {
+  border-color: #fe2c55 !important;
+  color: #fe2c55;
+}
+
+.btn-outline-danger:hover,
+.btn-danger:hover {
+  background-color: #fe2c55 !important;
+}
+
+.search_tikTok {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  background-color: #dadada;
+  max-width: 50%;
+  margin: auto;
+}
+
+.search_tikTok_input {
+  border: none;
+  border-radius: 20px;
+  background-color: #dadada;
+}
+
+.search_tikTok_input:hover,
+.search_tikTok_input:active,
+.search_tikTok_input:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #dadada;
+}
+
+.search_tikTok_icon {
+  display: block;
+  padding: 10px;
+  border-left: 1px solid #adadad;
+}
+
+.suggestedAccountIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.actions_tikTok {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 100%;
+}
+
+.tikTok_screen_img {
+  height: 700px;
+  border-radius: 10px;
+}
+.profile-head {
+  transform: translateY(5rem);
+}
+
+.cover {
+  background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  // min-height: 80vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/video-player-banner_1366-360.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-left {
+  & > li {
+    &:hover {
+      background: rgba(0, 0, 0, 0.089);
+    }
+    &.selected {
+      color: #fe2c55;
+    }
+    border-radius: 0;
+    padding: 7px 14px;
+  }
+}
+
+.scrollne{
+  height: 87vh;
+  overflow-y: scroll;
+}
+
+.scrollne::-webkit-scrollbar {
+  width: 10px;
+  }
+  
+  .scrollne::-webkit-scrollbar-track {
+  box-shadow: transparent; 
+  border-radius: 10px;
+  }
+  
+  .scrollne::-webkit-scrollbar-thumb {
+  background:pink; 
+  border-radius: 10px;
+  }
+  
+  .scrollne::-webkit-scrollbar-thumb:hover {
+  background:rgb(255, 132, 153)}
